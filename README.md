@@ -66,7 +66,7 @@ The following are the files available in this repository:
 
 * `RevenueOfHosts.ipynb` - a notebook of the analysis of the monthly revenue of the hosts
 
-* `RevenueOfHosts.ipynb` - a notebook of the analysis of the key drivers of listing prices and the approaches to predict the price
+* `PriceModeling.ipynb` - a notebook of the analysis of the key drivers of listing prices and the approaches to predict the price
 
 * `calendar.csv` - this csv-file was not used for this particular analysis, but it was available from the original kaggle link
 
