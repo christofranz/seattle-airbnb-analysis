@@ -16,9 +16,9 @@ You will need the standard data science libraries found in the Anaconda distribu
 
 For this project, I was interestested in analyzing data from AirBnB homes located in Seattle.  Specifically, I looked at the following questions:
 
-1. What is the availability of the listings? Are they available like a hotel 365 years a day?
-2. How much money can you earn as a host per month? And how is the montly revenue of all hosts distributed?
-3. What are the key drivers for the price of listings and can we predict them?
+1. How is the availability of the listings? Are AirBnB accomodations in Seattle available 365 years a day?
+2. How much money can you earn as a host per month? And how is the monthly revenue of all hosts distributed?
+3. What are the key drivers for the price of listings and is it possible to predict them?
 
 To answer each question, I followed the CRISP-DM process including:
 
