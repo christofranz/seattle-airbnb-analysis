@@ -36,16 +36,16 @@ In the first phase of the business understanding it is the goal to determine the
 
 ### Data Understanding
 
-Now an overview of the data is generated and tried to rate the quality of the data and any problems in regard of the planned goals from the step before. The AirBnB data from Seattle contains three different csv-files which are described in more detail in the [File Description](#files). The listings contain the field **availability_365** which gives information about how many days in the year the homes are available for renting. This can be directly used to answer the first question. Calculating the revenue per host and month is only possible with certain assumptions because the actual booked nights per listing are not contained. However, it is possible to approximate and estimate the corresponding revenues. For the last question the information from the listings are inspected regarding their meaning and importance for the price. But for sure they can be used to answer the last question to a certain extend.
+Data understanding means that an overview of the data is generated and the quality of the data rated. Any problems in regard of the planned goals from the step before should also be determined. The AirBnB data from Seattle contains three different csv-files which are described in more detail in the [File Description](#files). The listings contain the field **availability_365** which gives information about how many days in the year the homes are available for renting. This can be directly used to answer the first question. Calculating the revenue per host and month is only possible with certain assumptions because the actual booked nights per listing are not contained. However, it is possible to approximate and estimate the corresponding revenues. For the last question the information from the listings are inspected regarding their meaning and importance for the price. But for sure they can be used to answer the last question to a certain extend.
 
 ### Data Preparation
 
-Here a final data set for the modeling shall be generated. To reach this goal, the data needs to be inspected in more detail. Columns which are seldom filled can be neglected. On the other hands, columns with a rather small fraction of not filled values need to be kept. For numeric variables the mean value of each column is used to impute values. Categorical variables are replaced with dummy variables and all columns have to match the correct data type.
+Here a final data set for the modeling shall be generated. To reach this goal, the data needs to be inspected in more detail. Columns which are seldomly filled can be neglected. On the other hand, columns with a rather small fraction of not filled values need to be kept. For numeric variables the mean value of each column is used to impute values. Categorical variables are replaced with dummy variables and all columns have to match the correct data type.
 
 
 ### Modeling
 
-In this phase the for the defined task suiteable methods are applied on the prepared data set. The first two questions are answered by calculating certain statistics. For the last question both a linear regression and a random forest regression was implemented since it was a regression model. Linear regression is a very simple and fast approach to get first indications how easy the data can be fitted. Random Forst Regression is one of the best out of the box methods for supervised machine learning and hence used.
+In this phase the for the defined task suiteable methods are applied on the prepared data set. The first two questions are answered by calculating certain statistics. For the last question both a linear regression and a random forest regression was implemented since it was a regression problem. Linear regression is a very simple and fast approach to get first indications how easy the data can be fitted. Random Forest Regression is one of the best out of the box methods for supervised machine learning and hence used.
 
 
 ### Evaluation
@@ -72,7 +72,7 @@ The following are the files available in this repository:
 
 * `listings.csv` - csv containing the **id**, **description**, **host_id**, **price**, **availability_365** and many more information about each listing
 
-* `reviews.csv` - csvs containing the **home_id**, **date** of review, **reviewer_id**, **reviewer_name**, and reviewer **comments** for the reviewed stays.
+* `reviews.csv` - csv containing the **home_id**, **date** of review, **reviewer_id**, **reviewer_name**, and reviewer **comments** for the reviewed stays.
 
 It is worth noting here that the reviews and calendar files did not have overlapping dates, and there were no numeric values associated with reviews.
 
