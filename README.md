@@ -78,7 +78,7 @@ It is worth noting here that the reviews and calendar files did not have overlap
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the [blog post available here](https://TODO).
+The main findings of the code can be found at the [blog post available here](https://medium.com/@franzke.christoph/airbnb-in-seattle-how-much-remains-from-the-original-idea-d7caf8329e7).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
